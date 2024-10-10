@@ -2,6 +2,7 @@ from flask import Flask,redirect,url_for
 #  what we had learnt -- building url dynamically and rendering templates.
 app=Flask(__name__)
 
+
 @app.route('/')
 def Welcome():
     return "welcome to my website"
