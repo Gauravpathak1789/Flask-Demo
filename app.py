@@ -1,6 +1,6 @@
 from flask import Flask,redirect,url_for
 #  what we had learnt -- building url dynamically and rendering templates.
-app=Flask(__name__)
+app=Flask(__name__) #this is app variable
 
 
 @app.route('/')
